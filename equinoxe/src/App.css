@@ -1,8 +1,20 @@
+.hometext {
+    font-family: arial;
+    display: flex;
+    text-align: center;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-simple-black-flower-vine-border-background-illustration-vinebackgroundframe-image_74822.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hometext p {
+    padding: 2rem;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
-.link {
+.seasons-link {
     display: inline-block;
     height: 160px;
     padding-left: 150px;
