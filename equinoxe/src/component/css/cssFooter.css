@@ -1,6 +1,7 @@
 .footer {
     flex-direction: column;
     width: 100%;
+    margin-top: 2vh;
 }
 
 .column h1 {

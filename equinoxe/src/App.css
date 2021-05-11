@@ -1,65 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .link {
     display: inline-block;
-    height: 150px;
+    height: 160px;
     padding-left: 150px;
 }
 .linkcontainer .navlinks {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2vh;
 }
-.linkcontainer {
-    display: flex;
-    justify-content: center;
-}
 
 .janvier {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/janvier.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .fevrier {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/fevrier.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .mars {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/mars.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .avril {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/avril.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .mai {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/mai.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .juin {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/juin.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .juillet {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/juillet.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .aout {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/aout.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .septembre {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/septembre.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .octobre {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/octore.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .novembre {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/novembre.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .decembre {
-    background-image: url('/src/component/images/150x150.png');
+    background-image: url('/src/component/images/decembre.png');
+    background-repeat: no-repeat;
+    border: 1px solid lightgrey;
 }
 
 .monthS {
