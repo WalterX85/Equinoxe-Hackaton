@@ -1,9 +1,9 @@
 import React from 'react';
 
-Function Seasons() {
+function Seasons() {
     return (
-
+        <p>Hello From Seasons</p>
         )
-}
+};
 
 export default Seasons;
