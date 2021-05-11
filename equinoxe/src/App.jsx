@@ -87,6 +87,7 @@ function App() {
           ))
         }
       </main>
+      <Footer />
     </BrowserRouter>
   );
 }
