@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './component/Header';
@@ -19,10 +19,10 @@ import Decembre from './component/Decembre';
 import Footer from './component/Footer';
 
 const seasons = [
-  {
+  /*{
     month: 'janvier',
-    component: Janvier,
-  },
+    Component: Janvier,
+  },*/
   {
     month: 'fevrier',
     Component: Fevrier,
@@ -70,6 +70,8 @@ const seasons = [
 ];
 
 function App() {
+  const [janvier, setJanvier] = useState();
+
   return (
     <BrowserRouter>
       <Header />
@@ -78,7 +80,10 @@ function App() {
           <Home />
         </Route>
         <Route path="/seasons" exact>
-          <Seasons />
+          <Seasons janvier={janvier} />
+        </Route>
+        <Route path="/seasons/janvier" exact>
+          <Janvier setJanvier={setJanvier} />
         </Route>
         {
           seasons.map((season) => (

@@ -1,8 +1,16 @@
 import React from 'react';
 
-function Janvier() {
+function Janvier({ setJanvier }) {
   return (
-      <p>Hello from janvier</p>
+      <>
+        <p>Hello from janvier</p>
+        <button type="button" onClick={() => {
+          setJanvier('agroforesterie');
+        }}
+        >
+          click me :)
+        </button>
+      </>
   )
 };
 
