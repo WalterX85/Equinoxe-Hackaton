@@ -1,8 +1,85 @@
-#root {
+* {
+background-color: aquamarine;
+}
+
+.link {
+    display: inline-block;
+    width: 0;
+    height: 150px;
+    overflow: hidden;
+    padding-left: 150px;
+}
+
+.january {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.fevrier {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.mars {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.avril {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.mai {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.juin {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.juillet {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.aout {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.septembre {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.octobre {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.novembre {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.decembre {
+    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+}
+
+.monthS {
+    margin-top: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .month {
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    box-shadow: 8px 8px 20px lightgray;
+    background-color: whitesmoke;
   }
-  main {
-    flex-grow: 1;
+  
+  .month-img {
+    border-radius: 50px;
+    height: 200px;
+    width: 100%;
   }
