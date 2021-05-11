@@ -16,6 +16,7 @@ import Septembre from './component/Septembre';
 import Octobre from './component/Octobre';
 import Novembre from './component/Novembre';
 import Decembre from './component/Decembre';
+import Footer from './component/Footer';
 
 const seasons = [
   {
