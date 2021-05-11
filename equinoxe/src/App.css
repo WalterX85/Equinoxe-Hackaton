@@ -1,61 +1,65 @@
-* {
-background-color: aquamarine;
-}
-
 .link {
     display: inline-block;
-    width: 0;
     height: 150px;
-    overflow: hidden;
     padding-left: 150px;
 }
+.linkcontainer .navlinks {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.linkcontainer {
+    display: flex;
+    justify-content: center;
+}
 
-.january {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+.janvier {
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .fevrier {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .mars {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .avril {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .mai {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .juin {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .juillet {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .aout {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .septembre {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .octobre {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .novembre {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .decembre {
-    background-image: url('https://www.sentinellesdelamer-occitanie.fr/wp-content/uploads/2017/03/150x150.png');
+    background-image: url('/src/component/images/150x150.png');
 }
 
 .monthS {
@@ -83,3 +87,12 @@ background-color: aquamarine;
     height: 200px;
     width: 100%;
   }
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    flex-grow: 1;
+  }
+  
