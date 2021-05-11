@@ -1,8 +1,8 @@
 import React from 'react';
 
-Function Home() {
+function Home() {
     return (
-
+        <p>Hello from Home</p>
     )
-}
+};
 export default Home;
