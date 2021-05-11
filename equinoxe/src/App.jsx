@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './component/Header';
 import Home from './component/Home';
 import Seasons from './component/Seasons';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Seasons />
         </Route>
       </main>
+      <Footer />
     </BrowserRouter>
   );
 }
