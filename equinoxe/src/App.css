@@ -111,7 +111,7 @@ body {
   
   }
   
-  .month {
+.month {
     border-radius: 10px;
     width: 200px;
     margin: 20px;
@@ -119,29 +119,29 @@ body {
     flex-direction: column;
     box-shadow: 8px 8px 20px lightgray;
     background-color: whitesmoke;
-  }
+}
   
-  .month-img {
+.month-img {
     border-radius: 50px;
     height: 200px;
     width: 100%;
-  }
-  #root {
+}
+#root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  main {
+}
+main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-  }
-  .ugly-vine {
+}
+.ugly-vine {
       flex-grow: 1;
       background-image: url("/src/component/images/moche.jpg");
       background-size: cover;
   }
-  .pretty-vine {
+.pretty-vine {
     flex-grow: 1;
     background-image: url("/src/component/images/beau.jpg");
     background-size: cover;

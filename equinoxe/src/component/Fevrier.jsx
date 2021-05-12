@@ -1,5 +1,4 @@
 import React from 'react';
-import cssFevrier from './css/cssFevrier.css';
 import { useHistory } from 'react-router-dom';
 
 function Fevrier({ setFevrier }) {
@@ -21,23 +20,19 @@ function Fevrier({ setFevrier }) {
       </div>
     </div>
       <div className="cards">
-        <div className="construction">
-        <h2>
+        <div className="card">
           <p>CONSTRUCTION</p>
-          <button>Mur parpaings</button>
-          <button>Muret pierres</button>
-          <button>Clôture-grillage</button>
-          <button>Nichoir</button>
-        </h2>
+          <button className="pbutton">Mur parpaings</button>
+          <button className="pbutton">Muret pierres</button>
+          <button className="pbutton">Clôture-grillage</button>
+          <button className="pbutton">Nichoir</button>
         </div>
         <div className="vegetables">
-        <h2>
           <p>VEGETATION</p>
-          <button>Lière</button>
-          <button>Plantes & fleurs</button>
-          <button>Arbres & arbustes</button>
-          <button>Marre</button>
-          </h2>
+          <button className="pbuttonv">Lière</button>
+          <button className="pbuttonv">Plantes and fleurs</button>
+          <button className="pbuttonv">Arbres and arbustes</button>
+          <button className="pbuttonv">Marre</button>
         </div>
       </div>
       <div className="details">

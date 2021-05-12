@@ -1,5 +1,4 @@
 import React from 'react';
-import cssMai from './css/cssMai.css';
 import { useHistory } from 'react-router-dom';
 
 function Mai({ setMai }) {
@@ -21,8 +20,20 @@ function Mai({ setMai }) {
       </div>
     </div>
       <div className="cards">
-        <h2>CONSTRUCTION</h2>
-        <h2>VEGETATION</h2>
+      <div className="card">
+          <p>CONSTRUCTION</p>
+          <button className="pbutton">Mur parpaings</button>
+          <button className="pbutton">Muret pierres</button>
+          <button className="pbutton">Clôture-grillage</button>
+          <button className="pbutton">Nichoir</button>
+        </div>
+        <div className="vegetables">
+          <p>VEGETATION</p>
+          <button className="pbuttonv">Lière</button>
+          <button className="pbuttonv">Plantes and fleurs</button>
+          <button className="pbuttonv">Arbres and arbustes</button>
+          <button className="pbuttonv">Marre</button>
+        </div>
       </div>
       <div className="details">
         <h2>Protéger</h2>

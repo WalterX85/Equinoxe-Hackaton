@@ -14,39 +14,17 @@ body {
     flex-direction: column;
 }
 
-.cards.construction {
-    font-size: 1rem;
-    border: 1px solid black;
-    padding: 1vh;
-    height: 20vh;
-    width: 30vw;
-    text-align: center;
-    margin-right: 2rem;
-}
-
-button {
+.pbutton {
     width: 100%;
     margin: 2px;
     background-color: burlywood;
     border-radius:10px;
 }
-
-.cards.vegetables {
-    font-size: 1rem;
-    border: 1px solid black;
-    padding: 1vh;
-    height: 20vh;
-    width: 30vw;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 25vw;
-    margin-top: 2vh;
+.pbuttonv {
+    width: 100%;
+    margin: 2px;
+    background-color: #3e8c46;
+    border-radius:10px;
 }
 .jauges img {
     width: 12rem;
@@ -65,4 +43,26 @@ button {
 }
 .details h2 {
     font-size: 1.3rem;
+}
+.card {
+    border: 1px solid black;
+    padding: 1vh;
+}
+.vegetables {
+    border: 1px solid black;
+    padding: 1vh;
+}
+.card p {
+    text-align: center;
+    font-weight: bold;
+}
+.vegetables p {
+    text-align: center;
+    font-weight: bold;
+}
+.cards {
+    display: flex;
+}
+.box {
+    margin-bottom: 3vh;
 }

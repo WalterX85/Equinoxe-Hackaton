@@ -1,5 +1,5 @@
 import React from 'react';
-import cssJanvier from './css/cssJanvier.css';
+import cssMonth from './css/cssMonth.css';
 import { useHistory } from 'react-router-dom';
 
 function Janvier({ setJanvier }) {
@@ -21,9 +21,21 @@ function Janvier({ setJanvier }) {
         </div>
       </div>
         <div className="cards">
-          <h2>CONSTRUCTION</h2>
-          <h2>VEGETATION</h2>
+          <div className="card">
+            <p>CONSTRUCTION</p>
+            <button className="pbutton">Mur parpaings</button>
+            <button className="pbutton">Muret pierres</button>
+            <button className="pbutton">Clôture-grillage</button>
+            <button className="pbutton">Nichoir</button>
+          </div>
+        <div className="vegetables">
+          <p>VEGETATION</p>
+          <button className="pbuttonv">Lière</button>
+          <button className="pbuttonv">Plantes and fleurs</button>
+          <button className="pbuttonv">Arbres and arbustes</button>
+          <button className="pbuttonv">Marre</button>
         </div>
+      </div>
         <div className="details">
           <h2>Taille de la vigne</h2>
           <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
