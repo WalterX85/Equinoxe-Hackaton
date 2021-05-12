@@ -13,14 +13,34 @@ body {
     display: flex;
     flex-direction: column;
 }
-.cards h2 {
+
+.cards.construction {
     font-size: 1rem;
     border: 1px solid black;
     padding: 1vh;
     height: 20vh;
     width: 30vw;
     text-align: center;
+    margin-right: 2rem;
 }
+
+button {
+    width: 100%;
+    margin: 2px;
+    background-color: burlywood;
+    border-radius:10px;
+}
+
+.cards.vegetables {
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 1vh;
+    height: 20vh;
+    width: 30vw;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
