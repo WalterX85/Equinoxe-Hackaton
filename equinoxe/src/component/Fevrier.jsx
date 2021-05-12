@@ -21,8 +21,24 @@ function Fevrier({ setFevrier }) {
       </div>
     </div>
       <div className="cards">
-        <h2>CONSTRUCTION</h2>
-        <h2>VEGETATION</h2>
+        <div className="construction">
+        <h2>
+          <p>CONSTRUCTION</p>
+          <button>Mur parpaings</button>
+          <button>Muret pierres</button>
+          <button>Clôture-grillage</button>
+          <button>Nichoir</button>
+        </h2>
+        </div>
+        <div className="vegetables">
+        <h2>
+          <p>VEGETATION</p>
+          <button>Lière</button>
+          <button>Plantes & fleurs</button>
+          <button>Arbres & arbustes</button>
+          <button>Marre</button>
+          </h2>
+        </div>
       </div>
       <div className="details">
         <h2>Préparer et bouturer</h2>
