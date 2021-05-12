@@ -14,7 +14,7 @@ function Decembre() {
         <img className="sol" src="https://nsa40.casimages.com/img/2021/05/11/210511095643310873.png" alt="sol"/>
       </div>
         <div className="capital">
-          <p>capital : 5283 €</p>
+          <p>capital : 94283 €</p>
         </div>
       </div>
     </div>
@@ -23,8 +23,8 @@ function Decembre() {
         <h2>VEGETATION</h2>
       </div>
       <div className="details">
-        <h2>Préparer et bouturer</h2>
-        <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
+        <h2>Repos</h2>
+        <p>Si certaines régions au climat plus doux peuvent commencer la taille en milieu de mois, c'est une période tout à fait propice au repos.</p>
       </div>
     </>
   )

@@ -14,7 +14,7 @@ function Avril() {
         <img className="sol" src="https://nsa40.casimages.com/img/2021/05/11/210511095643310873.png" alt="sol"/>
       </div>
         <div className="capital">
-          <p>capital : 5283 €</p>
+          <p>capital : 70283 €</p>
         </div>
       </div>
     </div>
@@ -23,8 +23,8 @@ function Avril() {
         <h2>VEGETATION</h2>
       </div>
       <div className="details">
-        <h2>Préparer et bouturer</h2>
-        <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
+        <h2>Planter et palisser</h2>
+        <p>Les sarments sont devenus mous et doivent donc etre aidés dans leur croissance. C'est à ce moment-là qu'ils sont attachés sur des rangées de fil de fer.</p>
       </div>
     </>
   )

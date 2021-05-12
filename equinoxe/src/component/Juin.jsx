@@ -14,7 +14,7 @@ function Juin() {
         <img className="sol" src="https://nsa40.casimages.com/img/2021/05/11/210511095643310873.png" alt="sol"/>
       </div>
         <div className="capital">
-          <p>capital : 5283 €</p>
+          <p>capital : 54283 €</p>
         </div>
       </div>
     </div>
@@ -23,8 +23,8 @@ function Juin() {
         <h2>VEGETATION</h2>
       </div>
       <div className="details">
-        <h2>Préparer et bouturer</h2>
-        <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
+        <h2>Floraison</h2>
+        <p>Les baies de raisins commencent à apparaitre. Les fleurs pointent leur nez lorsque la tempétature atteint environ 20°, puis ce sera au tour des grappes légèrement parfumées. </p>
       </div>
     </>
   )

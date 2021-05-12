@@ -14,7 +14,7 @@ function Juillet() {
         <img className="sol" src="https://nsa40.casimages.com/img/2021/05/11/210511095643310873.png" alt="sol"/>
       </div>
         <div className="capital">
-          <p>capital : 5283 €</p>
+          <p>capital : 47283 €</p>
         </div>
       </div>
     </div>
@@ -23,8 +23,8 @@ function Juillet() {
         <h2>VEGETATION</h2>
       </div>
       <div className="details">
-        <h2>Préparer et bouturer</h2>
-        <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
+        <h2>Surveillance</h2>
+        <p>Il est temps pour le vigneron de traiter ses vignes contre d'éventuelles agressions et de couper les sarments qui seraient trop long.</p>
       </div>
     </>
   )
