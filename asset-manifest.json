@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/css/main.f37df639.chunk.css",
-    "main.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/main.637e7ae7.chunk.js",
-    "main.js.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/main.637e7ae7.chunk.js.map",
+    "main.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/main.e6e4aca6.chunk.js",
+    "main.js.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/main.e6e4aca6.chunk.js.map",
     "runtime-main.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/runtime-main.ace96281.js",
     "runtime-main.js.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/runtime-main.ace96281.js.map",
     "static/js/2.d4491225.chunk.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/2.d4491225.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.ace96281.js",
     "static/js/2.d4491225.chunk.js",
     "static/css/main.f37df639.chunk.css",
-    "static/js/main.637e7ae7.chunk.js"
+    "static/js/main.e6e4aca6.chunk.js"
   ]
 }
