@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+.jauges {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.cards h2 {
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 1vh;
+    height: 20vh;
+    width: 30vw;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25vw;
+    margin-top: 2vh;
+}
+.jauges img {
+    width: 12rem;
+}
+.test {
+    display: inline-flex;
+}
+.capital {
+    margin-left: 13vw;
+    margin-top: 3vh;
+    font-weight: bold;
+}
+.details {
+    display: block;
+    text-align: center;
+}
+.details h2 {
+    font-size: 1.3rem;
+}

@@ -1,9 +1,42 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function Seasons({ janvier }) {
+function Seasons({ janvier, fevrier, mars, avril, mai, juin, juillet, aout, septembre, octobre, novembre, decembre }) {
 
   if (janvier === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (fevrier === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (mars === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (avril === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (mai === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (juin === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (juillet === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (aout === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (septembre === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (octobre === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (novembre === 'agroforesterie') {
+	return <p>Vous avez gagné</p>;
+  }
+  else if (decembre === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
 
