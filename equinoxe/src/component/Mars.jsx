@@ -14,7 +14,7 @@ function Mars() {
         <img className="sol" src="https://nsa40.casimages.com/img/2021/05/11/210511095643310873.png" alt="sol"/>
       </div>
         <div className="capital">
-          <p>capital : 5283 €</p>
+          <p>capital : 71283 €</p>
         </div>
       </div>
     </div>
@@ -23,8 +23,8 @@ function Mars() {
         <h2>VEGETATION</h2>
       </div>
       <div className="details">
-        <h2>Préparer et bouturer</h2>
-        <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
+        <h2>Labourer la terre</h2>
+        <p>Juste avant le printemps, avant le réveil de la nature et donc des vignes, le moment est idéal pour labourer la terre.</p>
       </div>
     </>
   )

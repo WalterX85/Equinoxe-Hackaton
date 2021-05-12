@@ -14,7 +14,7 @@ function Fevrier() {
         <img className="sol" src="https://nsa40.casimages.com/img/2021/05/11/210511095643310873.png" alt="sol"/>
       </div>
         <div className="capital">
-          <p>capital : 5283 €</p>
+          <p>capital : 79283 €</p>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ function Novembre() {
         <img className="sol" src="https://nsa40.casimages.com/img/2021/05/11/210511095643310873.png" alt="sol"/>
       </div>
         <div className="capital">
-          <p>capital : 5283 €</p>
+          <p>capital : 98283 €</p>
         </div>
       </div>
     </div>
@@ -23,8 +23,8 @@ function Novembre() {
         <h2>VEGETATION</h2>
       </div>
       <div className="details">
-        <h2>Préparer et bouturer</h2>
-        <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
+        <h2>Préparer l'hiver</h2>
+        <p>C'est la fin de la vinification, les fermentations touchent à leur fin. Le vigneron se prépare au grand repos de l'hiver.</p>
       </div>
     </>
   )

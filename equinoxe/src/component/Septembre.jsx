@@ -23,8 +23,8 @@ function Septembre() {
         <h2>VEGETATION</h2>
       </div>
       <div className="details">
-        <h2>Préparer et bouturer</h2>
-        <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
+        <h2>Vendanges</h2>
+        <p>Le vigneron n'attends que cette période et il a travailler dur toute l'année tout le reste de l'année pour vivre cet intense moment. En général les vendanges débutent à la mi-septembre, au plus haut de la maturité du raisin.</p>
       </div>
     </>
   )
