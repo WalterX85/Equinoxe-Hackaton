@@ -104,7 +104,7 @@ function Seasons({ janvier, fevrier, mars, avril, mai, juin, juillet, aout, sept
 			<button className ="participate" type="button" onClick={() => {
 				setPlaying(true);
 			}}>
-				Participer
+				Jouer
 			</button>
 			<button className ="participate" type="button">
 				Rencontrer nos vignerons
