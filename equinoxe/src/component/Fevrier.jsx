@@ -44,7 +44,7 @@ function Fevrier({ setFevrier }) {
         <h2>Préparer et bouturer</h2>
         <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setFevrier('agroforesterie');
           history.push('/seasons');
         }}

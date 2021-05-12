@@ -28,7 +28,7 @@ function Juillet({ setJuillet }) {
         <h2>Surveillance</h2>
         <p>Il est temps pour le vigneron de traiter ses vignes contre d'éventuelles agressions et de couper les sarments qui seraient trop long.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setJuillet('agroforesterie');
           history.push('/seasons');
         }}

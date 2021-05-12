@@ -28,7 +28,7 @@ function Juin({ setJuin }) {
         <h2>Floraison</h2>
         <p>Les baies de raisins commencent à apparaitre. Les fleurs pointent leur nez lorsque la tempétature atteint environ 20°, puis ce sera au tour des grappes légèrement parfumées. </p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setJuin('agroforesterie');
           history.push('/seasons');
         }}

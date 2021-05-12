@@ -28,7 +28,7 @@ function Aout({ setAout }) {
         <h2>L'entretien</h2>
         <p>Cette période chaude et ensoleillée est propice à l'entretien des vignes (travaux, améliorations). Le vigneron évitera de travailler le sol mais fera au contraire les "vendanges vertes".</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setAout('agroforesterie');
           history.push('/seasons');
         }}
