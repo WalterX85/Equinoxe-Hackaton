@@ -28,7 +28,7 @@ function Mai({ setMai }) {
         <h2>Protéger</h2>
         <p>Le vigneron va tout faire pour éviter à ses vignes de se faire attaquer par le terrible Mildiou ou l'oidium. Il fera des labours pour le désherbage ou choisira des pulvérisations</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setMai('agroforesterie');
           history.push('/seasons');
         }}

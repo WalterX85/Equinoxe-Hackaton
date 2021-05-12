@@ -28,7 +28,7 @@ function Avril({ setAvril }) {
         <h2>Planter et palisser</h2>
         <p>Les sarments sont devenus mous et doivent donc etre aidés dans leur croissance. C'est à ce moment-là qu'ils sont attachés sur des rangées de fil de fer.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setAvril('agroforesterie');
           history.push('/seasons');
         }}

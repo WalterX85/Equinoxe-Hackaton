@@ -28,7 +28,7 @@ function Septembre({ setSeptembre }) {
         <h2>Vendanges</h2>
         <p>Le vigneron n'attends que cette période et il a travailler dur toute l'année tout le reste de l'année pour vivre cet intense moment. En général les vendanges débutent à la mi-septembre, au plus haut de la maturité du raisin.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setSeptembre('agroforesterie');
           history.push('/seasons');
         }}

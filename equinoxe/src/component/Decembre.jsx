@@ -28,7 +28,7 @@ function Decembre({ setDecembre }) {
         <h2>Repos</h2>
         <p>Si certaines régions au climat plus doux peuvent commencer la taille en milieu de mois, c'est une période tout à fait propice au repos.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setDecembre('agroforesterie');
           history.push('/seasons');
         }}

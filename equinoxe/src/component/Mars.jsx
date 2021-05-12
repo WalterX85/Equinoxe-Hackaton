@@ -28,7 +28,7 @@ function Mars({ setMars }) {
         <h2>Labourer la terre</h2>
         <p>Juste avant le printemps, avant le réveil de la nature et donc des vignes, le moment est idéal pour labourer la terre.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setMars('agroforesterie');
           history.push('/seasons');
         }}

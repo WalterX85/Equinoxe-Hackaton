@@ -29,7 +29,7 @@ function Octobre({ setOctobre }) {
         <h2>Mise en chai</h2>
         <p>Il s'agit de surveiller chaque jour le vin dans des cuves ou barriques et d'en controler les sucres et les fermentations alcooliques. Un travail lourd et décisif.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setOctobre('agroforesterie');
           history.push('/seasons');
         }}

@@ -28,7 +28,7 @@ function Novembre({ setNovembre }) {
         <h2>Préparer l'hiver</h2>
         <p>C'est la fin de la vinification, les fermentations touchent à leur fin. Le vigneron se prépare au grand repos de l'hiver.</p>
       </div>
-      <button type="button" onClick={() => {
+      <button className="meetbutton" type="button" onClick={() => {
           setNovembre('agroforesterie');
           history.push('/seasons');
         }}

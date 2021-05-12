@@ -44,7 +44,7 @@ function Seasons({ janvier, fevrier, mars, avril, mai, juin, juillet, aout, sept
   if (playing) {
 	return (
 	<div className="linkcontainer">
-		<button type="button" onClick={() => {
+		<button className ="participate" type="button" onClick={() => {
 			setPlaying(false);
 		}}>
 			Revenir plus tard	
@@ -101,12 +101,12 @@ function Seasons({ janvier, fevrier, mars, avril, mai, juin, juillet, aout, sept
 	}	
 	return (
 		<div className={vineClass}>
-			<button type="button" onClick={() => {
+			<button className ="participate" type="button" onClick={() => {
 				setPlaying(true);
 			}}>
 				Participer
 			</button>
-			<button type="button">
+			<button className ="participate" type="button">
 				Rencontrer nos vignerons
 			</button>
 		</div>
