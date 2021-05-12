@@ -1,7 +1,9 @@
 import React from 'react';
 import cssAout from './css/cssAout.css';
+import { useHistory } from 'react-router-dom';
 
-function Aout() {
+function Aout({ setAout }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Aout() {
         <h2>L'entretien</h2>
         <p>Cette période chaude et ensoleillée est propice à l'entretien des vignes (travaux, améliorations). Le vigneron évitera de travailler le sol mais fera au contraire les "vendanges vertes".</p>
       </div>
+      <button type="button" onClick={() => {
+          setAout('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

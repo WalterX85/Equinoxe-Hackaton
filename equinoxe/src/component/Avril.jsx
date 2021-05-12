@@ -1,7 +1,9 @@
 import React from 'react';
 import cssAvril from './css/cssAvril.css';
+import { useHistory } from 'react-router-dom';
 
-function Avril() {
+function Avril({ setAvril }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Avril() {
         <h2>Planter et palisser</h2>
         <p>Les sarments sont devenus mous et doivent donc etre aidés dans leur croissance. C'est à ce moment-là qu'ils sont attachés sur des rangées de fil de fer.</p>
       </div>
+      <button type="button" onClick={() => {
+          setAvril('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

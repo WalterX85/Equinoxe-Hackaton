@@ -1,7 +1,9 @@
 import React from 'react';
 import cssJuillet from './css/cssJuillet.css';
+import { useHistory } from 'react-router-dom';
 
-function Juillet() {
+function Juillet({ setJuillet }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Juillet() {
         <h2>Surveillance</h2>
         <p>Il est temps pour le vigneron de traiter ses vignes contre d'éventuelles agressions et de couper les sarments qui seraient trop long.</p>
       </div>
+      <button type="button" onClick={() => {
+          setJuillet('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

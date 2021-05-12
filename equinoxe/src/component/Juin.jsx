@@ -1,7 +1,9 @@
 import React from 'react';
 import cssJuin from './css/cssJuin.css';
+import { useHistory } from 'react-router-dom';
 
-function Juin() {
+function Juin({ setJuin }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Juin() {
         <h2>Floraison</h2>
         <p>Les baies de raisins commencent à apparaitre. Les fleurs pointent leur nez lorsque la tempétature atteint environ 20°, puis ce sera au tour des grappes légèrement parfumées. </p>
       </div>
+      <button type="button" onClick={() => {
+          setJuin('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

@@ -1,7 +1,9 @@
 import React from 'react';
 import cssMars from './css/cssMars.css';
+import { useHistory } from 'react-router-dom';
 
-function Mars() {
+function Mars({ setMars }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Mars() {
         <h2>Labourer la terre</h2>
         <p>Juste avant le printemps, avant le réveil de la nature et donc des vignes, le moment est idéal pour labourer la terre.</p>
       </div>
+      <button type="button" onClick={() => {
+          setMars('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

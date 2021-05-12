@@ -1,7 +1,9 @@
 import React from 'react';
 import cssSeptembre from './css/cssSeptembre.css';
+import { useHistory } from 'react-router-dom';
 
-function Septembre() {
+function Septembre({ setSeptembre }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Septembre() {
         <h2>Vendanges</h2>
         <p>Le vigneron n'attends que cette période et il a travailler dur toute l'année tout le reste de l'année pour vivre cet intense moment. En général les vendanges débutent à la mi-septembre, au plus haut de la maturité du raisin.</p>
       </div>
+      <button type="button" onClick={() => {
+          setSeptembre('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

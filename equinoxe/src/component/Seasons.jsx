@@ -1,47 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Seasons({ janvier, fevrier, mars, avril, mai, juin, juillet, aout, septembre, octobre, novembre, decembre }) {
+  const [playing, setPlaying] = useState(false);
 
-  if (janvier === 'agroforesterie') {
+  /*if (janvier === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (fevrier === 'agroforesterie') {
+   if (fevrier === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (mars === 'agroforesterie') {
+   if (mars === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (avril === 'agroforesterie') {
+   if (avril === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (mai === 'agroforesterie') {
+   if (mai === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (juin === 'agroforesterie') {
+   if (juin === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (juillet === 'agroforesterie') {
+   if (juillet === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (aout === 'agroforesterie') {
+   if (aout === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (septembre === 'agroforesterie') {
+   if (septembre === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (octobre === 'agroforesterie') {
+   if (octobre === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (novembre === 'agroforesterie') {
+   if (novembre === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
   }
-  else if (decembre === 'agroforesterie') {
+   if (decembre === 'agroforesterie') {
 	return <p>Vous avez gagné</p>;
-  }
+  }*/
 
-  return (
+  if (playing) {
+	return (
 	<div className="linkcontainer">
+		<button type="button" onClick={() => {
+			setPlaying(false);
+		}}>
+			Revenir plus tard	
+		</button>
 		<nav className="navlinks">
 			<NavLink className="seasons-link janvier" activeClassName="active" exact to="/seasons/janvier">
 			</NavLink>
@@ -84,6 +91,26 @@ function Seasons({ janvier, fevrier, mars, avril, mai, juin, juillet, aout, sept
 
     
         )
+	}
+	let vineClass = 'ugly-vine';
+	if (janvier && mars && mai) {
+		vineClass = 'pretty-vine';
+	}
+	if (janvier && mars && mai && aout && novembre) {
+		vineClass = 'beautifull-vine';
+	}	
+	return (
+		<div className={vineClass}>
+			<button type="button" onClick={() => {
+				setPlaying(true);
+			}}>
+				Participer
+			</button>
+			<button type="button">
+				Rencontrer nos vignerons
+			</button>
+		</div>
+	)
 };
 
 export default Seasons;

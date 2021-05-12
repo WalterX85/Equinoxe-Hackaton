@@ -1,7 +1,9 @@
 .footer {
     flex-direction: column;
     width: 100%;
-    margin-top: 2vh;
+    background-image: url("/src/component/images/bgheader.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .column h1 {
@@ -23,7 +25,7 @@ a:link {
 }
 
 .column h1 {
-    color: black;
+    color: white;
     display: flex;
     margin: auto;
 }
@@ -38,8 +40,9 @@ a:link {
 }
 
 .column p {
-    color: black;
+    color: white;
     font-size: 2vh;
+    font-weight: bold;
     font-style: italic;
 }
 

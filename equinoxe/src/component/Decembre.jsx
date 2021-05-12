@@ -1,7 +1,9 @@
 import React from 'react';
 import cssDecembre from './css/cssDecembre.css';
+import { useHistory } from 'react-router-dom';
 
-function Decembre() {
+function Decembre({ setDecembre }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Decembre() {
         <h2>Repos</h2>
         <p>Si certaines régions au climat plus doux peuvent commencer la taille en milieu de mois, c'est une période tout à fait propice au repos.</p>
       </div>
+      <button type="button" onClick={() => {
+          setDecembre('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

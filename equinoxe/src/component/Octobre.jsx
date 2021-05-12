@@ -1,7 +1,10 @@
 import React from 'react';
 import cssOctobre from './css/cssOctobre.css';
+import { useHistory } from 'react-router-dom';
 
-function Octobre() {
+
+function Octobre({ setOctobre }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +29,13 @@ function Octobre() {
         <h2>Mise en chai</h2>
         <p>Il s'agit de surveiller chaque jour le vin dans des cuves ou barriques et d'en controler les sucres et les fermentations alcooliques. Un travail lourd et décisif.</p>
       </div>
+      <button type="button" onClick={() => {
+          setOctobre('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

@@ -1,7 +1,9 @@
 import React from 'react';
 import cssMai from './css/cssMai.css';
+import { useHistory } from 'react-router-dom';
 
-function Mai() {
+function Mai({ setMai }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Mai() {
         <h2>Protéger</h2>
         <p>Le vigneron va tout faire pour éviter à ses vignes de se faire attaquer par le terrible Mildiou ou l'oidium. Il fera des labours pour le désherbage ou choisira des pulvérisations</p>
       </div>
+      <button type="button" onClick={() => {
+          setMai('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };
