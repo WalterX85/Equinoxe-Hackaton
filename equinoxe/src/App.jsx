@@ -92,18 +92,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/seasons" exact>
-          <Seasons janvier={janvier} />
-          <Seasons fevrier={fevrier} />
-          <Seasons mars={mars} />
-          <Seasons avril={avril} />
-          <Seasons mai={mai} />
-          <Seasons juin={juin} />
-          <Seasons juillet={juillet} />
-          <Seasons aout={aout} />
-          <Seasons septembre={septembre} />
-          <Seasons octobre={octobre} />
-          <Seasons novembre={novembre} />
-          <Seasons decembre={decembre} />
+          <Seasons janvier={janvier} fevrier={fevrier} mars={mars} avril={avril} mai={mai} juin={juin} juillet={juillet} aout={aout} septembre={septembre} octobre={octobre} novembre={novembre} decembre={decembre}/>
         </Route>
         <Route path="/seasons/janvier" exact>
           <Janvier setJanvier={setJanvier} />
@@ -139,7 +128,7 @@ function App() {
           <Novembre setNovembre={setNovembre} />
         </Route>
         <Route path="/seasons/decembre" exact>
-          <Decembre setNovembre={setNovembre} />
+          <Decembre setNovembre={setDecembre} />
         </Route>
         {
           seasons.map((season) => (

@@ -1,7 +1,9 @@
 import React from 'react';
 import cssNovembre from './css/cssNovembre.css';
+import { useHistory } from 'react-router-dom';
 
-function Novembre() {
+function Novembre({ setNovembre }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Novembre() {
         <h2>Préparer et bouturer</h2>
         <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
       </div>
+      <button type="button" onClick={() => {
+          setNovembre('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };

@@ -3,11 +3,11 @@
     display: flex;
     text-align: center;
     background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-simple-black-flower-vine-border-background-illustration-vinebackgroundframe-image_74822.jpg') ;
+    flex-grow: 1;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 .hometext p {
-    padding: 2rem;
+    padding: 3.5rem 2rem 0 2rem;
 }
 
 body {
@@ -130,5 +130,25 @@ body {
   }
   main {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
   }
-  
+  .ugly-vine {
+      flex-grow: 1;
+      background-image: url("/src/component/images/moche.jpg");
+      background-size: cover;
+  }
+  .pretty-vine {
+    flex-grow: 1;
+    background-image: url("/src/component/images/beau.jpg");
+    background-size: cover;
+}
+.beautifull-vine {
+    flex-grow: 1;
+    background-image: url("/src/component/images/tresbeau.jpg");
+    background-size: cover;
+}
+.meetbutton {
+    display: flex;
+    margin: auto;
+}

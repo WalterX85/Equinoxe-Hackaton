@@ -1,7 +1,9 @@
 import React from 'react';
 import cssMars from './css/cssMars.css';
+import { useHistory } from 'react-router-dom';
 
-function Mars() {
+function Mars({ setMars }) {
+  const history = useHistory();
   return (
     <>
     <div className="box">
@@ -26,6 +28,13 @@ function Mars() {
         <h2>Préparer et bouturer</h2>
         <p>Il s'agit, en langue vigneron, de faire "pleurer la vigne" : il incise le cep, faisant ainsi apparaître des gouttes de sève et créant un chemin imposé au sarment.</p>
       </div>
+      <button type="button" onClick={() => {
+          setMars('agroforesterie');
+          history.push('/seasons');
+        }}
+        >
+          Soutenir avec un don
+        </button>
     </>
   )
 };
