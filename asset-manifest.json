@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/css/main.bc2b6d80.chunk.css",
-    "main.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/main.48ac6cab.chunk.js",
-    "main.js.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/main.48ac6cab.chunk.js.map",
-    "runtime-main.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/runtime-main.ace96281.js",
-    "runtime-main.js.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/runtime-main.ace96281.js.map",
-    "static/js/2.d4491225.chunk.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/2.d4491225.chunk.js",
-    "static/js/2.d4491225.chunk.js.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/2.d4491225.chunk.js.map",
-    "static/js/3.64b1217c.chunk.js": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/3.64b1217c.chunk.js",
-    "static/js/3.64b1217c.chunk.js.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/3.64b1217c.chunk.js.map",
-    "index.html": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/index.html",
-    "static/css/main.bc2b6d80.chunk.css.map": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/css/main.bc2b6d80.chunk.css.map",
-    "static/js/2.d4491225.chunk.js.LICENSE.txt": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/js/2.d4491225.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/media/tresbeau.3936fdd0.jpg",
-    "static/media/cssFooter.css": "/WildCodeSchool/reims-js-2103-hackathon-equinoxe/static/media/bgheader.4031a440.jpg"
+    "main.css": "/reims-js-2103-hackathon-equinoxe/static/css/main.bc831f02.chunk.css",
+    "main.js": "/reims-js-2103-hackathon-equinoxe/static/js/main.87d02f31.chunk.js",
+    "main.js.map": "/reims-js-2103-hackathon-equinoxe/static/js/main.87d02f31.chunk.js.map",
+    "runtime-main.js": "/reims-js-2103-hackathon-equinoxe/static/js/runtime-main.c2d8be82.js",
+    "runtime-main.js.map": "/reims-js-2103-hackathon-equinoxe/static/js/runtime-main.c2d8be82.js.map",
+    "static/js/2.d4491225.chunk.js": "/reims-js-2103-hackathon-equinoxe/static/js/2.d4491225.chunk.js",
+    "static/js/2.d4491225.chunk.js.map": "/reims-js-2103-hackathon-equinoxe/static/js/2.d4491225.chunk.js.map",
+    "static/js/3.64b1217c.chunk.js": "/reims-js-2103-hackathon-equinoxe/static/js/3.64b1217c.chunk.js",
+    "static/js/3.64b1217c.chunk.js.map": "/reims-js-2103-hackathon-equinoxe/static/js/3.64b1217c.chunk.js.map",
+    "index.html": "/reims-js-2103-hackathon-equinoxe/index.html",
+    "static/css/main.bc831f02.chunk.css.map": "/reims-js-2103-hackathon-equinoxe/static/css/main.bc831f02.chunk.css.map",
+    "static/js/2.d4491225.chunk.js.LICENSE.txt": "/reims-js-2103-hackathon-equinoxe/static/js/2.d4491225.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reims-js-2103-hackathon-equinoxe/static/media/tresbeau.3936fdd0.jpg",
+    "static/media/cssFooter.css": "/reims-js-2103-hackathon-equinoxe/static/media/bgheader.4031a440.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ace96281.js",
+    "static/js/runtime-main.c2d8be82.js",
     "static/js/2.d4491225.chunk.js",
-    "static/css/main.bc2b6d80.chunk.css",
-    "static/js/main.48ac6cab.chunk.js"
+    "static/css/main.bc831f02.chunk.css",
+    "static/js/main.87d02f31.chunk.js"
   ]
 }
